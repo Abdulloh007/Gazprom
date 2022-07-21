@@ -1,0 +1,22 @@
+{
+  "name": "gazprom-urengoy",
+  "version": "1.0.0",
+  "description": "Gazprom urengoy trade union",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulloh007/Gazprom.git"
+  },
+  "author": "Abdulloh Sabirov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdulloh007/Gazprom/issues"
+  },
+  "homepage": "https://github.com/Abdulloh007/Gazprom#readme",
+  "dependencies": {
+    "swiper": "^8.3.1"
+  }
+}
