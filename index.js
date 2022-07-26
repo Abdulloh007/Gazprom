@@ -1,18 +1,11 @@
-// import {HeaderComponent} from "./components/header.js";
-// import {FooterComponent} from "./components/footer.js";
-
-
 window.addEventListener('DOMContentLoaded', () => {
     'use strict';
-
-    // const header =  document.querySelector('#header');
-    // const footer =  document.querySelector('#footer');
-    // if(header != undefined || header != null) {
-    //     header.innerHTML = HeaderComponent;
-    // }
-    // if(footer != undefined || footer != null) {
-    //     footer.innerHTML = FooterComponent;
-    // }
+    
+    const header =  document.querySelector('#header');
+    const footer =  document.querySelector('#footer');
+    
+    fetch('./src/components/header.html').then(response => response.text()).then(data => header != undefined || header != null ? header.innerHTML = data : '');
+    fetch('./src/components/footer.html').then(response => response.text()).then(data => footer != undefined || footer != null ? footer.innerHTML = data : '');
     
     //ScrollTop Fixed menu
     const nav = document.querySelectorAll('.g-nav');

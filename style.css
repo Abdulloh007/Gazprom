@@ -205,10 +205,7 @@ a {
     cursor: pointer;
 }
 /* Navigation Styles */
-header {
-    padding: 65px 0 105px;
-    height: 85px;
-}
+
 .g-nav {
     position: absolute;
     background-color: var(--bg);
@@ -229,7 +226,6 @@ header {
 .g-menu {
     margin: 0 30px;
     padding: 0;
-    width: calc(100% - 255px - 356px - 60px);
 }
 .g-menu li a{
     font-family: 'Ubuntu', sans-serif;
