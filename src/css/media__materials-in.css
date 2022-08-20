@@ -1,0 +1,123 @@
+.g-nav {
+    background-color: var(--blue);
+}
+.g-banner__section {
+    background-color: transparent;
+}
+.g-bread__crumbs {
+    margin-bottom: 25px;
+}
+.g-bc__item {
+    color: #D2D2D2;
+}
+.g-bc__item g {opacity: 1;}
+.g-bc__item path {
+    stroke: #D2D2D2;
+}
+.g-section__heading {
+    padding: 0;
+}
+
+
+.g-post__section {
+    padding-bottom: 65px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.g-galary__section {
+    padding: 65px 0 75px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.g-post__data {
+    width: calc(100% - 100px);
+    border-bottom: 1px solid #E1ECEF;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+.g-pd__item {
+    font-size: 10px;
+    margin-right: 15px;
+}
+.g-pd__item > .g-bage.blue {
+    font-size: 12px;
+}
+.g-pd__item svg {
+    margin-right: 8px;
+}
+.g-post__title {
+    width: 100%;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+.g-post__text {
+    font-weight: 400;
+    font-size: 18px;
+}
+.g-post__actions {
+    width: 90px;
+    margin-left: 10px;
+}
+.g-post__actions .g-btn {
+    padding: 10px;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+.g-post__actions .g-btn:first-child {
+    margin-right: 10px;
+}
+
+.g-post__col {
+    width: calc(33.33335% - 10px);
+}
+.g-post__col:not(:last-child) {
+    margin-right: 15px;
+}
+.g-post__row {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.g-post__row img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Galary post styles  */
+.g-post.galary {
+    position: relative;
+}
+.g-post.galary::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    border-radius: 6px;
+}
+.g-post.galary .g-post__banner {
+    margin-bottom: 0;
+}
+.g-post.galary .g-count {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 10px;
+    font-size: 10px;
+}
+.g-post.galary .g-pe__wrap {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 100%;
+    z-index: 1;
+}
+.g-post.galary .g-pe__wrap > * {
+    color: #fff;
+}

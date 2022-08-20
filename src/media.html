@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="./css/media.css">
 </head>
@@ -15,7 +16,7 @@
     <main class="g-main">
         <section class="g-section g-banner__section">
             <div class="g-container">
-                <div class="g-row">
+                <div class="g-row g-position_relative">
                     <div class="g-bread__crumbs g-dfw">
                         <a href="#" class="g-bc__item">главная</a>
                         <p class="g-bc__item">
@@ -28,15 +29,15 @@
                         <p class="g-bc__item">медиа</p>
                     </div>
                     <h2 class="g-banner__heading">Главное сегодня</h2>
-                    <div class="g-slider swiper">
+                    <div class="g-slider g-active-project__slider swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide g-post g-dfw">
                                 <div class="g-post__banner">
-                                    <img src="./assets/img/home/ap__1.png" alt="">
-                                    <div class="g-post__meta">17 августа · 2022</div>
+                                    <img src="../assets/img/home/ap__1.png" alt="">
+                                    <div class="g-post__meta g-bage blue">17 августа · 2022</div>
                                 </div>
                                 <div class="g-post_excerpt g-dfw">
-                                    <div class="g-pe__icon">
+                                    <div class="g-pe__icon g-btn g-btn__transparent-blue">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M5.5 16.5L16.5 5.5" stroke="#0072C5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M7.5625 5.5H16.5V14.4375" stroke="#0072C5" stroke-linecap="square" stroke-linejoin="round"/>
@@ -50,11 +51,11 @@
                             </div>
                             <div class="swiper-slide g-post g-dfw">
                                 <div class="g-post__banner">
-                                    <img src="./assets/img/home/ap__2.png" alt="">
-                                    <div class="g-post__meta">17 августа · 2022</div>
+                                    <img src="../assets/img/home/ap__2.png" alt="">
+                                    <div class="g-post__meta g-bage blue">17 августа · 2022</div>
                                 </div>
                                 <div class="g-post_excerpt g-dfw">
-                                    <div class="g-pe__icon">
+                                    <div class="g-pe__icon g-btn g-btn__transparent-blue">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M5.5 16.5L16.5 5.5" stroke="#0072C5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M7.5625 5.5H16.5V14.4375" stroke="#0072C5" stroke-linecap="square" stroke-linejoin="round"/>
@@ -68,11 +69,11 @@
                             </div>
                             <div class="swiper-slide g-post g-dfw">
                                 <div class="g-post__banner">
-                                    <img src="./assets/img/home/ap__3.png" alt="">
-                                    <div class="g-post__meta">17 августа · 2022</div>
+                                    <img src="../assets/img/home/ap__3.png" alt="">
+                                    <div class="g-post__meta g-bage blue">17 августа · 2022</div>
                                 </div>
                                 <div class="g-post_excerpt g-dfw">
-                                    <div class="g-pe__icon">
+                                    <div class="g-pe__icon g-btn g-btn__transparent-blue">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M5.5 16.5L16.5 5.5" stroke="#0072C5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M7.5625 5.5H16.5V14.4375" stroke="#0072C5" stroke-linecap="square" stroke-linejoin="round"/>
@@ -86,13 +87,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="g-active-project__slider__navigation g-slider__navigation">
-                        <div class="g-bsn__btn prev">
+                    <div class="g-active-project__slider__navigation banner-nav g-slider__navigation g-dfw">
+                        <div class="g-bsn__btn g-btn g-btn__transparent prev">
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.25 14.625L5.625 9L11.25 3.375" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>                                        
                         </div>
-                        <div class="g-bsn__btn next">
+                        <div class="g-bsn__btn g-btn g-btn__transparent next">
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M6.75 3.375L12.375 9L6.75 14.625" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>                                        
@@ -105,7 +106,7 @@
         <!-- Hot Links Section -->
         <section class="g-section g-hot_links__section">
             <div class="g-container">
-                <div class="g-row">
+                <div class="g-row g-jc-sb">
                     <a class="g-hot_link">
                         <h4 class="g-hl__title">Актуальные проекты</h4>
                         <div class="g-hl__data g-dfw g-jc-sb">
@@ -184,7 +185,7 @@
                     <h2 class="g-section__heading">Актуальные проекты</h2>
                     <div class="g-section__actions g-dfw">
                         <a href="#" class="g-sa__link">Смотреть все</a>
-                        <div class="g-active-project__slider__navigation g-slider__navigation">
+                        <div class="g-active-project__slider__navigation g-slider__navigation g-dfw">
                             <div class="g-bsn__btn prev">
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M11.25 14.625L5.625 9L11.25 3.375" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
@@ -197,15 +198,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="g-slider swiper">
+                    <div class="g-slider g-active-project__slider swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide g-post g-dfw">
                                 <div class="g-post__banner">
-                                    <img src="./assets/img/home/ap__1.png" alt="">
-                                    <div class="g-post__meta">17 августа · 2022</div>
+                                    <img src="../assets/img/home/ap__1.png" alt="">
+                                    <div class="g-post__meta g-bage blue">17 августа · 2022</div>
                                 </div>
                                 <div class="g-post_excerpt g-dfw">
-                                    <div class="g-pe__icon">
+                                    <div class="g-pe__icon g-btn g-btn__transparent-blue">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M5.5 16.5L16.5 5.5" stroke="#0072C5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M7.5625 5.5H16.5V14.4375" stroke="#0072C5" stroke-linecap="square" stroke-linejoin="round"/>
@@ -219,11 +220,11 @@
                             </div>
                             <div class="swiper-slide g-post g-dfw">
                                 <div class="g-post__banner">
-                                    <img src="./assets/img/home/ap__2.png" alt="">
-                                    <div class="g-post__meta">17 августа · 2022</div>
+                                    <img src="../assets/img/home/ap__2.png" alt="">
+                                    <div class="g-post__meta g-bage blue">17 августа · 2022</div>
                                 </div>
                                 <div class="g-post_excerpt g-dfw">
-                                    <div class="g-pe__icon">
+                                    <div class="g-pe__icon g-btn g-btn__transparent-blue">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M5.5 16.5L16.5 5.5" stroke="#0072C5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M7.5625 5.5H16.5V14.4375" stroke="#0072C5" stroke-linecap="square" stroke-linejoin="round"/>
@@ -237,11 +238,11 @@
                             </div>
                             <div class="swiper-slide g-post g-dfw">
                                 <div class="g-post__banner">
-                                    <img src="./assets/img/home/ap__3.png" alt="">
-                                    <div class="g-post__meta">17 августа · 2022</div>
+                                    <img src="../assets/img/home/ap__3.png" alt="">
+                                    <div class="g-post__meta g-bage blue">17 августа · 2022</div>
                                 </div>
                                 <div class="g-post_excerpt g-dfw">
-                                    <div class="g-pe__icon">
+                                    <div class="g-pe__icon g-btn g-btn__transparent-blue">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M5.5 16.5L16.5 5.5" stroke="#0072C5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M7.5625 5.5H16.5V14.4375" stroke="#0072C5" stroke-linecap="square" stroke-linejoin="round"/>
@@ -265,7 +266,7 @@
                     <h2 class="g-section__heading">Новости профсоюза</h2>
                     <div class="g-section__actions g-dfw">
                         <a href="#" class="g-sa__link">Смотреть все</a>
-                        <div class="g-media__slider__navigation g-slider__navigation">
+                        <div class="g-media__slider__navigation g-slider__navigation g-dfw">
                             <div class="g-bsn__btn prev">
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M11.25 14.625L5.625 9L11.25 3.375" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
@@ -278,15 +279,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="g-slider swiper">
+                    <div class="g-slider g-media__slider swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide g-post g-dfw">
                                 <div class="g-post__banner">
-                                    <img src="./assets/img/home/m_1.png" alt="">
-                                    <div class="g-post__meta">17 августа · 2022</div>
+                                    <img src="../assets/img/home/m_1.png" alt="">
+                                    <div class="g-post__meta g-bage blue">17 августа · 2022</div>
                                 </div>
                                 <div class="g-post_excerpt g-dfw">
-                                    <div class="g-pe__icon">
+                                    <div class="g-pe__icon g-btn g-btn__transparent-blue">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M5.5 16.5L16.5 5.5" stroke="#0072C5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M7.5625 5.5H16.5V14.4375" stroke="#0072C5" stroke-linecap="square" stroke-linejoin="round"/>
@@ -300,11 +301,11 @@
                             </div>
                             <div class="swiper-slide g-post g-dfw">
                                 <div class="g-post__banner">
-                                    <img src="./assets/img/home/m_2.png" alt="">
-                                    <div class="g-post__meta">17 августа · 2022</div>
+                                    <img src="../assets/img/home/m_2.png" alt="">
+                                    <div class="g-post__meta g-bage blue">17 августа · 2022</div>
                                 </div>
                                 <div class="g-post_excerpt g-dfw">
-                                    <div class="g-pe__icon">
+                                    <div class="g-pe__icon g-btn g-btn__transparent-blue">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M5.5 16.5L16.5 5.5" stroke="#0072C5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M7.5625 5.5H16.5V14.4375" stroke="#0072C5" stroke-linecap="square" stroke-linejoin="round"/>
@@ -318,11 +319,11 @@
                             </div>
                             <div class="swiper-slide g-post g-dfw">
                                 <div class="g-post__banner">
-                                    <img src="./assets/img/home/m_3.png" alt="">
-                                    <div class="g-post__meta">17 августа · 2022</div>
+                                    <img src="../assets/img/home/m_3.png" alt="">
+                                    <div class="g-post__meta g-bage blue">17 августа · 2022</div>
                                 </div>
                                 <div class="g-post_excerpt g-dfw">
-                                    <div class="g-pe__icon">
+                                    <div class="g-pe__icon g-btn g-btn__transparent-blue">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M5.5 16.5L16.5 5.5" stroke="#0072C5" stroke-linecap="round" stroke-linejoin="round"/>
                                             <path d="M7.5625 5.5H16.5V14.4375" stroke="#0072C5" stroke-linecap="square" stroke-linejoin="round"/>
@@ -346,7 +347,7 @@
                     <h2 class="g-section__heading">Печатные издания</h2>
                     <div class="g-section__actions g-dfw">
                         <a href="#" class="g-sa__link">Смотреть все</a>
-                        <div class="g-media__slider__navigation g-slider__navigation">
+                        <div class="g-printed__slider__navigation g-slider__navigation g-dfw">
                             <div class="g-bsn__btn prev">
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M11.25 14.625L5.625 9L11.25 3.375" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
@@ -359,48 +360,48 @@
                             </div>
                         </div>
                     </div>
-                    <div class="g-slider swiper">
+                    <div class="g-slider g-printed__slider swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide g-post printed g-dfw">
                                 <div class="g-post__banner">
-                                    <img src="./assets/img/home/pr_1.png" alt="">
+                                    <img src="../assets/img/home/pr_1.png" alt="">
                                 </div>
                                 <div class="g-post_excerpt g-dfw">
                                     <div class="g-pe__wrap">
                                         <p class="g-pe__text">PDF · 27 мая 2022</p>
                                         <h2 class="g-pe__title">Ласточка</h2>
-                                        <div class="g-post__meta">Выпуск №9</div>
+                                        <div class="g-post__meta g-bage blue">Выпуск №9</div>
                                         <p class="g-pe__content">Еженедельная электронная газета Нефтегазстройпроф союза России</p>
                                     </div>
-                                    <button class="g-btn g-btn__transparent">Читать выпуск</button>
+                                    <button class="g-btn g-btn__transparent-blue">Читать выпуск</button>
                                 </div>
                             </div>
                             <div class="swiper-slide g-post printed g-dfw">
                                 <div class="g-post__banner">
-                                    <img src="./assets/img/home/pr_2.png" alt="">
+                                    <img src="../assets/img/home/pr_2.png" alt="">
                                 </div>
                                 <div class="g-post_excerpt g-dfw">
                                     <div class="g-pe__wrap">
                                         <p class="g-pe__text">PDF · 27 мая 2022</p>
                                         <h2 class="g-pe__title">Ласточка</h2>
-                                        <div class="g-post__meta">Выпуск №9</div>
+                                        <div class="g-post__meta g-bage blue">Выпуск №9</div>
                                         <p class="g-pe__content">Еженедельная электронная газета Нефтегазстройпроф союза России</p>
                                     </div>
-                                    <button class="g-btn g-btn__transparent">Читать выпуск</button>
+                                    <button class="g-btn g-btn__transparent-blue">Читать выпуск</button>
                                 </div>
                             </div>
                             <div class="swiper-slide g-post printed g-dfw">
                                 <div class="g-post__banner">
-                                    <img src="./assets/img/home/pr_3.png" alt="">
+                                    <img src="../assets/img/home/pr_3.png" alt="">
                                 </div>
                                 <div class="g-post_excerpt g-dfw">
                                     <div class="g-pe__wrap">
                                         <p class="g-pe__text">PDF · 27 мая 2022</p>
                                         <h2 class="g-pe__title">Ласточка</h2>
-                                        <div class="g-post__meta">Выпуск №9</div>
+                                        <div class="g-post__meta g-bage blue">Выпуск №9</div>
                                         <p class="g-pe__content">Еженедельная электронная газета Нефтегазстройпроф союза России</p>
                                     </div>
-                                    <button class="g-btn g-btn__transparent">Читать выпуск</button>
+                                    <button class="g-btn g-btn__transparent-blue">Читать выпуск</button>
                                 </div>
                             </div>
                         </div>
@@ -415,7 +416,7 @@
                     <h2 class="g-section__heading">Фото и видео материалы</h2>
                     <div class="g-section__actions g-dfw">
                         <a href="#" class="g-sa__link">Смотреть все</a>
-                        <div class="g-media__slider__navigation g-slider__navigation">
+                        <div class="g-galary__slider__navigation g-slider__navigation g-dfw">
                             <div class="g-bsn__btn prev">
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M11.25 14.625L5.625 9L11.25 3.375" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
@@ -428,13 +429,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="g-slider swiper">
+                    <div class="g-slider g-galary__slider swiper">
                         <div class="swiper-wrapper">
                             <a href="#" class="swiper-slide g-post galary g-dfw">
                                 <div href="#" class="g-post__banner">
-                                    <img src="./assets/img/home/g_1.png" alt="">
+                                    <img src="../assets/img/home/g_1.png" alt="">
                                 </div>
-                                <a class="g-btn g-btn__white">18</a>
+                                <div class="g-btn g-btn__white g-count">18</div>
                                 <div class="g-pe__wrap">
                                     <h2 class="g-pe__title">Ласточка</h2>
                                     <p class="g-pe__text">PDF · 27 мая 2022</p>
@@ -442,13 +443,13 @@
                             </a>
                             <a href="#" class="swiper-slide g-post galary g-dfw">
                                 <div href="#" class="g-post__banner">
-                                    <img src="./assets/img/home/g_2.png" alt="">
+                                    <img src="../assets/img/home/g_2.png" alt="">
                                 </div>
-                                <a class="g-btn g-btn__white">
+                                <div class="g-btn g-btn__white g-count">
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M17.8241 9.46679L6.57591 2.59268C6.48117 2.53478 6.37272 2.50317 6.2617 2.50109C6.15069 2.49901 6.04112 2.52654 5.94428 2.58085C5.84744 2.63516 5.76681 2.71429 5.7107 2.8101C5.65458 2.90591 5.625 3.01494 5.625 3.12598V16.8742C5.625 16.9852 5.65458 17.0943 5.7107 17.1901C5.76681 17.2859 5.84744 17.365 5.94428 17.4193C6.04112 17.4736 6.15069 17.5012 6.2617 17.4991C6.37272 17.497 6.48117 17.4654 6.57591 17.4075L17.8241 10.5334C17.9154 10.4776 17.9909 10.3992 18.0433 10.3058C18.0957 10.2124 18.1232 10.1072 18.1232 10.0001C18.1232 9.89302 18.0957 9.78775 18.0433 9.69437C17.9909 9.60099 17.9154 9.52262 17.8241 9.46679Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
-                                </a>
+                                </div>
                                 <div class="g-pe__wrap">
                                     <h2 class="g-pe__title">Ласточка</h2>
                                     <p class="g-pe__text">PDF · 27 мая 2022</p>
@@ -456,9 +457,9 @@
                             </a>
                             <a href="#" class="swiper-slide g-post galary g-dfw">
                                 <div href="#" class="g-post__banner">
-                                    <img src="./assets/img/home/g_3.png" alt="">
+                                    <img src="../assets/img/home/g_3.png" alt="">
                                 </div>
-                                <a class="g-btn g-btn__white">18</a>
+                                <div class="g-btn g-btn__white g-count">18</div>
                                 <div class="g-pe__wrap">
                                     <h2 class="g-pe__title">Ласточка</h2>
                                     <p class="g-pe__text">PDF · 27 мая 2022</p>
@@ -466,9 +467,9 @@
                             </a>
                             <a href="#" class="swiper-slide g-post galary g-dfw">
                                 <div href="#" class="g-post__banner">
-                                    <img src="./assets/img/home/g_4.png" alt="">
+                                    <img src="../assets/img/home/g_4.png" alt="">
                                 </div>
-                                <a class="g-btn g-btn__white">18</a>
+                                <div class="g-btn g-btn__white g-count">18</div>
                                 <div class="g-pe__wrap">
                                     <h2 class="g-pe__title">Ласточка</h2>
                                     <p class="g-pe__text">PDF · 27 мая 2022</p>
@@ -476,9 +477,9 @@
                             </a>
                             <a href="#" class="swiper-slide g-post galary g-dfw">
                                 <div href="#" class="g-post__banner">
-                                    <img src="./assets/img/home/g_5.png" alt="">
+                                    <img src="../assets/img/home/g_5.png" alt="">
                                 </div>
-                                <a class="g-btn g-btn__white">18</a>
+                                <div class="g-btn g-btn__white g-count">18</div>
                                 <div class="g-pe__wrap">
                                     <h2 class="g-pe__title">Ласточка</h2>
                                     <p class="g-pe__text">PDF · 27 мая 2022</p>
@@ -486,9 +487,9 @@
                             </a>
                             <a href="#" class="swiper-slide g-post galary g-dfw">
                                 <div href="#" class="g-post__banner">
-                                    <img src="./assets/img/home/g_4.png" alt="">
+                                    <img src="../assets/img/home/g_4.png" alt="">
                                 </div>
-                                <a class="g-btn g-btn__white">18</a>
+                                <div class="g-btn g-btn__white g-count">18</div>
                                 <div class="g-pe__wrap">
                                     <h2 class="g-pe__title">Ласточка</h2>
                                     <p class="g-pe__text">PDF · 27 мая 2022</p>
@@ -496,9 +497,9 @@
                             </a>
                             <a href="#" class="swiper-slide g-post galary g-dfw">
                                 <div href="#" class="g-post__banner">
-                                    <img src="./assets/img/home/g_5.png" alt="">
+                                    <img src="../assets/img/home/g_5.png" alt="">
                                 </div>
-                                <a class="g-btn g-btn__white">18</a>
+                                <div class="g-btn g-btn__white g-count">18</div>
                                 <div class="g-pe__wrap">
                                     <h2 class="g-pe__title">Ласточка</h2>
                                     <p class="g-pe__text">PDF · 27 мая 2022</p>
@@ -513,8 +514,10 @@
 
     <footer id="footer"></footer>
 
+
+    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
     <script type="module" src="../index.js"></script>
-    <script type="module" src="./js/home.js"></script>
+    <script src="./js/media.js"></script>
 
 </body>
 </html>

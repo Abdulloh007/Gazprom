@@ -1,0 +1,23 @@
+/* Printed Posts Styles */
+.g-post.printed .g-post__banner {
+    width: 40%;
+}
+.g-post.printed .g-post_excerpt {
+    width: calc(60% - 24px);
+    height: fit-content;
+    margin-top: 10px;
+    margin-left: 24px;
+    padding-top: 15px;
+    border-top: 1px solid #EEF2F4;
+}
+.g-post.printed .g-post__meta {
+    position: static;
+    width: fit-content;
+}
+.g-post.printed .g-pe__content {
+    font-size: 12px;
+}
+.g-post.printed .g-post_excerpt .g-btn {
+    font-size: 12px;
+    padding: 10px 15px;
+}

@@ -76,6 +76,9 @@ ul {
 a {
     text-decoration: none;
 }
+input {
+    outline: none;
+}
 /* Glob Styles */
 .g-container{
     max-width: 1315px;
@@ -138,15 +141,25 @@ a {
     border-color: #fff;
     color: #fff;
 }
+.g-btn__transparent-gray {
+    background-color: transparent;
+    border-color: #E1ECEF;
+    color: #8D9BA5;
+}
 .g-btn.g-btn__blue {
     background-color: #0072C5;
-    border-radius: #0072C5;
+    border-color: #0072C5;
     color: #fff;
 }
 .g-btn.g-btn__transparent-blue {
     background-color: transparent;
     border-color: #0072C5;
     color: #0072C5;
+}
+.g-btn.g-btn__black {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
 }
 .g-btn.disabled {
     border-color: var(--secondary);
@@ -159,12 +172,20 @@ a {
 }
 .g-bage {
     padding: 5px 10px;
+    margin: 0;
     border-radius: 6px;
     background-color: #B6B6B6;
+    border: 1px solid;
 }
 .g-bage.blue {
     background-color: var(--blue);
+    border-color: var(--blue);
     color: #fff;
+}
+.g-bage.transparent {
+    background-color: transparent;
+    border-color: #E1ECEF;
+    color: #000;
 }
 /* Swiper Slider Styles */
 .swiper {
@@ -216,6 +237,8 @@ a {
     width: 100%;
     position: relative;
     margin-bottom: 25px;
+    border-radius: 6px;
+    overflow: hidden;
 }
 .g-post_excerpt {
     width: 100%;
@@ -350,7 +373,13 @@ a {
 }
 .g-banner__section {
     background-color: #eee;
-    padding-top: 100px;
+    padding-top: 120px;
+}
+.g-banner__heading {
+    font-size: 46px;
+    font-weight: 400;
+    color: #fff;
+    margin: 25px 0;
 }
 .g-mega-menu {
     margin-right: 60px;
@@ -536,4 +565,49 @@ footer .g-container .g-row:first-child {
 }
 .g-cpl__item:not(:last-child) {
     margin-right: 25px;
+}
+
+/* Breadcrumbs Styles */
+.g-bread__crumbs {
+    width: 100%;
+    margin: 15px 0 0;
+}
+.g-bc__item {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgb(255 255 255 / 30%);
+    margin: 0;
+}
+
+/* Pagination Actions Styles */
+.g-pagination {
+    width: 100%;
+    margin-top: 70px;
+}
+.g-pagination .g-btn.g-btn__gray {
+    color: var(--blue);
+    font-size: 16px;
+    margin-right: 35px;
+}
+.g-pagination .g-btn.g-btn__gray span {
+    margin-right: 60px;
+}
+.g-pages__list {
+    height: 100%;
+}
+.g-pl__item {
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    color: #B6B6B6;
+    font-size: 14px;
+    padding: 20px  10px;
+    height: 100%;
+}
+.g-pl__item:not(:last-child) {
+    margin-right: 10px;
+}
+.g-pl__item.active {
+    background: #F5F5F5;
+    border-color: #F5F5F5;
+    color: var(--blue);
 }

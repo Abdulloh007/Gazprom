@@ -4,8 +4,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const header =  document.querySelector('#header');
     const footer =  document.querySelector('#footer');
     
-    fetch('./src/components/header.html').then(response => response.text()).then(data => header != undefined || header != null ? header.innerHTML = data : '');
-    fetch('./src/components/footer.html').then(response => response.text()).then(data => footer != undefined || footer != null ? footer.innerHTML = data : '');
+    fetch('/src/components/header.html').then(response => response.text()).then(data => header != undefined || header != null ? header.innerHTML = data : '');
+    fetch('/src/components/footer.html').then(response => response.text()).then(data => footer != undefined || footer != null ? footer.innerHTML = data : '');
     
     //ScrollTop Fixed menu
     const nav = document.querySelectorAll('.g-nav');
