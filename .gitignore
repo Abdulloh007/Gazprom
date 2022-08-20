@@ -1,1 +1,12 @@
-/node_modules
+/node_modules/dom7
+/node_modules/ssr-window
+/node_modules/swiper/angular
+/node_modules/swiper/components-shared
+/node_modules/swiper/core
+/node_modules/swiper/modules
+/node_modules/swiper/react
+/node_modules/swiper/shared
+/node_modules/swiper/solid
+/node_modules/swiper/svelte
+/node_modules/swiper/types
+/node_modules/swiper/vue
