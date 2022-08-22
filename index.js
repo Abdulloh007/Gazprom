@@ -5,27 +5,29 @@ window.addEventListener('DOMContentLoaded', () => {
     const footer =  document.querySelector('#footer');
     
     fetch('/src/components/header.html').then(response => response.text()).then(data => header != undefined || header != null ? header.innerHTML = data : '');
-    fetch('/src/components/footer.html').then(response => response.text()).then(data => footer != undefined || footer != null ? footer.innerHTML = data : '');
-    
-    //ScrollTop Fixed menu
-    const nav = document.querySelectorAll('.g-nav');
-    
-    window.addEventListener('scroll', ()=> {
-        if (document.body.scrollTop > 80) {
-            nav.forEach(item => item.classList.add('fix'));
-        }else {
-            nav.forEach(item => item.classList.remove('fix'));
+    fetch('/src/components/footer.html').then(response => response.text()).then(data => footer != undefined || footer != null ? footer.innerHTML = data : '').finally(() => {
+        //ScrollTop Fixed menu
+        const nav = document.querySelectorAll('.g-nav');
+        
+        window.addEventListener('scroll', ()=> {
+            if (document.documentElement.scrollTop > 80) {
+                nav.forEach(item => item.classList.add('fix'));
+            }else {
+                nav.forEach(item => item.classList.remove('fix'));
+            }
+        });
+        window.addEventListener('resize', () => goAdaptive())
+        // Mobile Menu Srcipt
+        function goAdaptive() {
+            if(window.innerWidth <= 992) { 
+                console.log(window.innerWidth);
+                
+            }
         }
+        goAdaptive();
     });
-    window.addEventListener('resize', () => goAdaptive())
-    // Mobile Menu Srcipt
-    function goAdaptive() {
-        if(window.innerWidth <= 992) { 
-            console.log(window.innerWidth);
-            
-        }
-    }
-    goAdaptive();
+    
+
     
     //PopUp`s
     let popUpBtns = document.querySelectorAll('.g-pop_up__btn'),
