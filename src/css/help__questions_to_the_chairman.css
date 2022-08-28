@@ -1,0 +1,59 @@
+.g-nav {
+    background-color: var(--blue);
+}
+.g-banner__section {
+    background-color: transparent;
+}
+.g-bread__crumbs {
+    margin-bottom: 25px;
+}
+.g-bc__item {
+    color: #D2D2D2;
+}
+.g-bc__item g {opacity: 1;}
+.g-bc__item path {
+    stroke: #D2D2D2;
+}
+.g-section__heading {
+    padding: 0;
+}
+.g-active__projects {
+    padding-bottom: 80px;
+}
+.g-section__actions .g-btn:not(:last-child) {
+    margin-right: 10px;
+}
+.g-section__actions .g-btn {
+    font-size: 10px;
+    padding: 10px;
+}
+.g-section__actions .g-btn.g-btn__blue {
+    color: #fff;
+}
+
+/* Materials Styles */
+.g-post__materials {
+    width: calc(50% - 7.5px);
+    margin-bottom: 15px;
+    border: 1px solid #E1ECEF;
+    border-radius: 6px;
+    padding: 13px;
+    align-items: center;
+}
+.g-pm__icon {
+    margin-left: 15px;
+    width: 22px;
+}
+.g-pm__text-wrap {
+    width: calc(100% - 38px);
+}
+.g-pm__text-wrap h4 {
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+.g-pm__text-wrap .g-bage {
+    width: fit-content;
+    font-size: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+}

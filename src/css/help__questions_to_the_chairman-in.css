@@ -1,0 +1,244 @@
+.g-nav {
+    background-color: var(--blue);
+}
+.g-banner__section {
+    background-color: transparent;
+}
+.g-bread__crumbs {
+    margin-bottom: 25px;
+}
+.g-bc__item {
+    color: #D2D2D2;
+}
+.g-bc__item g {opacity: 1;}
+.g-bc__item path {
+    stroke: #D2D2D2;
+}
+/* Content Wrap Styles */
+.g-post__content {
+    width: 67%;
+    padding-right: 116px;
+}
+.g-post__sidebar {
+    padding-left: 106px;
+    width: 33%;
+    position: relative;
+}
+.g-post__sidebar::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: calc(100% + ((100vw - 1315px) / 2));
+    height: calc(100% + 50px);
+    background-color: #F5F5F5;
+    z-index: -1;
+}
+/* Widgets Styles */
+.g-post__banner__widget {
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.g-post__banner__widget img {
+    width: 100%;
+}
+.g-post__title {
+    width: 100%;
+    font-weight: 600;
+    font-size: 32px;
+}
+.g-post__data {
+    border-bottom: 1px solid #E1ECEF;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+.g-pd__item {
+    font-size: 10px;
+    margin-right: 15px;
+}
+.g-pd__item > .g-bage.blue {
+    font-size: 12px;
+}
+.g-pd__item svg {
+    margin-right: 8px;
+}
+.g-post__heading {
+    font-weight: 600;
+    font-size: 22px;
+}
+.g-post__text {
+    font-weight: 400;
+    font-size: 18px;
+}
+.swiper {
+    height: auto;
+}
+.g-post__slider .swiper-slide > img {
+    height: auto;
+    max-height: 762px;
+}
+.g-slider-navigation {
+    margin-top: 15px;
+}
+.g-slider__nav {
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.g-slider-navigation .g-slider__pagination {
+    width: auto;
+    margin: 0 33px;
+}
+
+.g-post__materials {
+    width: 100%;
+    border: 1px solid #E1ECEF;
+    border-radius: 6px;
+    padding: 13px;
+    align-items: center;
+}
+.g-pm__icon {
+    margin-right: 15px;
+    width: 35px;
+}
+.g-pm__text-wrap {
+    width: calc(100% - 50px - 105px);
+}
+.g-pm__text-wrap p {
+    margin: 0;
+    color: #B2BCC3;
+    font-size: 10px;
+}
+.g-pm__text-wrap h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.g-pm__actions .g-btn:first-child {
+    margin-right: 5px;
+}
+
+.g-blockquote {
+    position: relative;
+    padding: 42px 24px 24px;
+    margin: 0 0 50px;
+    background: #F5F5F5;
+    border-radius: 6px;
+}
+.g-blockquote::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 24px;
+    width: 42px;
+    height: 36px;
+    background-image: url('../../assets/svg/frames.svg');
+}
+.g-bq__text {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 0 30px;
+}
+.g-bq__meta {
+    width: 100%;
+}
+.g-bq__meta p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--blue);
+}
+.g-bq__meta h4 {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+/* Comments Styles */
+.g-post__comments {
+    border-top: 1px solid #E1ECEF;
+    margin-top: 55px;
+}
+.g-post__comments .g-form {
+    width: 100%;
+}
+.g-post__comments .g-label {
+    width: calc(100% - 58px);
+    display: block;
+    border: 1px solid #E1ECEF;
+    border-radius: 6px;
+}
+.g-post__comments .g-label input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+}
+.g-post__comments .g-form .g-btn {
+    padding: 10px;
+}
+.g-comment {
+    padding: 20px 0;
+    border-bottom: 1px solid #E1ECEF;
+}
+.g-comment__user__avatar {
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.g-comment__user__avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.g-comment__text-wrap {
+    width: calc(100% - 48px - 15px);
+    position: relative;
+}
+.g-comment__text-wrap h4 {
+    margin: 0;
+    font-size: 14px;
+}
+.g-ctw__data {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #B2BCC3;
+    font-size: 10px;
+}
+.g-comment__text-wrap p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #919AA0;
+}
+.g-comments__collapser {
+    margin: 15px 0 70px;
+}
+.g-comments__collapser span {
+    font-size: 12px;
+    margin-left: 5px;
+    color: var(--blue);
+}
+
+
+/* Sidebar Styles */
+.g-quetion {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+}
+.g-quetion:not(:last-child) {
+    margin-bottom: 15px;
+}
+.g-quetion .g-btn {
+    padding: 5px;
+}
+.g-quetion h4 {
+    width: calc(100% - 45px);
+    margin: 0;
+    margin-left: 10px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}

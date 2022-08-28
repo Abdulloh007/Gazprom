@@ -1,0 +1,31 @@
+.g-nav {
+    background-color: var(--blue);
+}
+.g-banner__section {
+    background-color: #f5f5f5;
+}
+.g-bread__crumbs {
+    margin-bottom: 25px;
+}
+.g-bc__item {
+    color: #D2D2D2;
+}
+.g-bc__item g {opacity: 1;}
+.g-bc__item path {
+    stroke: #D2D2D2;
+}
+.g-section__heading {
+    padding-left: 0;
+    width: 100%;
+}
+
+/* Form Styles */
+.g-auth__block {
+    width: 520px;
+    margin: -55px auto 0;
+    padding: 75px 100px;
+    background-color: #fff;
+}
+.g-auth__block .g-f__btn:last-child {
+    margin-top: 15px;
+}

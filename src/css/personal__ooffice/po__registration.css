@@ -1,0 +1,40 @@
+.g-nav {
+    background-color: var(--blue);
+}
+.g-banner__section {
+    background-color: transparent;
+}
+.g-bread__crumbs {
+    margin-bottom: 25px;
+}
+.g-bc__item {
+    color: #D2D2D2;
+}
+.g-bc__item g {opacity: 1;}
+.g-bc__item path {
+    stroke: #D2D2D2;
+}
+.g-section__heading {
+    padding-left: 0;
+    width: 100%;
+}
+
+/* Form Styles */
+.g-auth__block {
+    width: 520px;
+    margin: -55px auto 0;
+    padding: 75px 100px;
+    background-color: #fff;
+}
+.g-f__label.w-33:nth-child(1n) {
+    margin-right: 0;
+}
+.g-f__label.w-33.mr15 {
+    margin-right: 15px;
+}
+.g-post__heading {
+    width: 100%;
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--blue);
+}

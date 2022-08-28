@@ -25,6 +25,15 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         }
         goAdaptive();
+
+        // Mega Menu 
+        const mmBtn = document.querySelector('.g-mm__btn');
+        const mmContent = document.querySelector('.g-mega-menu');
+
+        mmBtn.addEventListener('click', ()=> {
+            mmContent.classList.toggle('active'); 
+            mmContent.parentNode.parentNode.parentNode.classList.toggle('mega')
+        })
     });
     
 

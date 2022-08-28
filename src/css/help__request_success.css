@@ -1,0 +1,79 @@
+.g-nav {
+    background-color: var(--blue);
+}
+.g-banner__section {
+    background-color: transparent;
+}
+.g-bread__crumbs {
+    margin-bottom: 25px;
+}
+.g-bc__item {
+    color: #D2D2D2;
+}
+.g-bc__item g {opacity: 1;}
+.g-bc__item path {
+    stroke: #D2D2D2;
+}
+.g-section__heading {
+    padding: 0;
+    width: 100%;
+}
+.g-section__tag.gray {
+    color: #949494;
+    font-weight: 400;
+    font-size: 19px;
+    text-transform: none;
+}
+.g-section__tag.gray::before {
+    top: 10px;
+}
+.g-active__projects {
+    padding-bottom: 80px;
+}
+.g-section__actions .g-btn:not(:last-child) {
+    margin-right: 10px;
+}
+.g-section__actions .g-btn {
+    font-size: 10px;
+    padding: 10px;
+}
+.g-section__actions .g-btn.g-btn__blue {
+    color: #fff;
+}
+/* Content Wrap Styles */
+.g-post__content {
+    width: 60%;
+    align-content: center;
+}
+.g-post__man {
+    max-width: 40%;
+}
+
+/* Last Tab Styles */
+.g-hot__spot {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.g-hs__point.\31 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 11px solid var(--blue);
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    box-sizing: content-box;
+}
+.g-contact__data .g-mmcc__contact {
+    border-bottom: 1px solid #E1ECEF;
+    padding-bottom: 15px;
+}
+.g-contact__data .g-mmcc__contact:not(:last-child) {
+    width: 50%;
+}
+.g-contact__data .g-mmcc__contact .g-mmccc__text-wrap {
+    width: calc(100% - 75px);
+}

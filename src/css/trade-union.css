@@ -194,6 +194,20 @@
 }
 
 /* Commission Styles */
+.g-tab.reset {
+    position: absolute;
+    left: 40%;
+    opacity: 0;
+    z-index: -1;
+    pointer-events: none;
+    transition: .3s ease;
+}
+
+.g-tab.reset.active {
+    opacity: 1;
+    z-index: auto;
+    pointer-events: auto;
+}
 section#comission .g-tn__item.active {
     color: var(--blue);
 }
