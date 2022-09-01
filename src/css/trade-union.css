@@ -11,7 +11,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    width: calc((100vw - 1315px) / 2 + (1315px * 0.40));
+    width: calc((100vw - var(--container)) / 2 + (var(--container) * 0.40));
     background-color: rgb(0 114 197 / 70%);
 }
 .g-banner__section .g-row > * {
@@ -69,6 +69,7 @@
 }
 .g-fast__link {
     font-size: 12px;
+    font-weight: 600;
     margin-right: 25px;
     color: #000;
 }
@@ -108,6 +109,7 @@
 .g-gc__text {
     font-weight: 400;
     font-size: 14px;
+    color: #646464;
 }
 .g-cl__link {
     color: #0072C5;
@@ -145,7 +147,7 @@
 }
 .g-mgtw__heading {
     position: relative;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 600;
     margin: 0 0 30px;
 }
@@ -280,6 +282,17 @@ section#comission .g-tn__item.active {
 }
 .g-osahc__icon {
     width: 60px;
+}
+.g-osah__card.img > * {
+    width: 50%;
+}
+.g-osah__card.img > *:first-child {
+    padding-right: 15px;
+}
+.g-osahc__icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .g-osahc__heading {
     margin: 0 0 25px;

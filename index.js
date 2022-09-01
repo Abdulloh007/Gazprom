@@ -20,8 +20,31 @@ window.addEventListener('DOMContentLoaded', () => {
         // Mobile Menu Srcipt
         function goAdaptive() {
             if(window.innerWidth <= 992) { 
-                console.log(window.innerWidth);
-                
+                const sideBar = document.querySelector('.g-m_side-bar'),
+                sideBarOverlay = document.querySelector('.g-m_overlay'),
+                sideBarBtn = document.querySelector('.g-humburger');
+
+                sideBarBtn.addEventListener('click', function () {
+                    if (this.classList.contains('active')) {
+                        this.classList.remove('active');
+                        sideBar.classList.remove('open');
+                        sideBarOverlay.classList.remove('open');
+                        document.documentElement.style.overflow = ''
+                    }
+                    else {
+                        this.classList.add('active');
+                        sideBar.classList.add('open');
+                        sideBarOverlay.classList.add('open');
+                        document.documentElement.style.overflow = 'hidden'
+                    }
+                })
+
+                sideBarOverlay.addEventListener('click', ()=> {
+                    sideBarBtn.classList.remove('active');
+                    sideBar.classList.remove('open');
+                    sideBarOverlay.classList.remove('open');
+                    document.documentElement.style.overflow = '';
+                })
             }
         }
         goAdaptive();

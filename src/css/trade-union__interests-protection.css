@@ -29,7 +29,7 @@
     position: absolute;
     top: -50px;
     left: 0;
-    width: calc(100% + ((100vw - 1315px) / 2));
+    width: calc(100% + ((100vw - var(--container)) / 2));
     height: calc(100% + 50px);
     background-color: #F5F5F5;
     z-index: -1;

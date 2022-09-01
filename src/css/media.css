@@ -1,6 +1,6 @@
 .g-banner__section {
     background-image: url('../../assets/img/media/bnn_bg.png');
-    background-size: 100%;
+    background-size: 100% 85%;
     background-repeat: no-repeat;
     background-color: transparent;
 }
@@ -74,7 +74,7 @@
 }
 .g-hl__data {
     width: 100%;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .g-competition__section {
     margin-bottom: 75px;
