@@ -60,6 +60,9 @@
 .g-pon__item.active svg path {
     stroke: #000;
 }
+.g-pon__item span {
+    width: calc(100% - 40px);
+}
 .g-po__content {
     width: 70%;
     padding-left: 40px;
@@ -141,4 +144,50 @@
     font-weight: 600;
     width: calc(100% - 19px);
     margin: auto 0 auto 5px;
+}
+
+.g-pmd__item {
+    max-width: 33%;
+}
+
+
+
+/* ----- MEDIA STYLES ----- */
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+    .g-section__actions .g-btn.g-btn__blue {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .g-po__nav {
+        width: 100%;
+    }
+    .g-po__content {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+    .g-section__actions .g-btn:nth-child(1n) {
+        margin: 0 10px 10px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .g-pmtw__text:nth-child(4) {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .g-pmd__item {
+        max-width: 50%;
+        margin-bottom: 10px;
+    }
+    .g-pmd__item:nth-child(3) {
+        max-width: 100%;
+    }
 }

@@ -121,3 +121,33 @@
 .g-post.galary .g-pe__wrap > * {
     color: #fff;
 }
+
+
+/* ----- MEDIA STYLES ----- */
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    .g-sa__link {
+        margin-right: 20px;
+    }
+    .g-post__col, .g-post__col:not(:last-child) {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .g-post__title {
+        font-size: 18px;
+    }
+}
+
+
+

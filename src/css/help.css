@@ -18,6 +18,9 @@
     padding-left: 0;
     width: 100%;
 }
+.g-post__section {
+    margin-bottom: 40px;
+}
 /* OSASH Styles */
 .g-osah__card {
     width: calc(16.66667% - (75px / 6));
@@ -52,4 +55,49 @@
     font-weight: 600;
     text-transform: uppercase;
     color: var(--blue);
+}
+
+/* ----- MEDIA STYLES ----- */
+
+@media (max-width: 1200px) {
+    .g-osah__card {
+        width: calc(33.33335% - 10px);
+    }
+    .g-osah__card:not(:nth-child(6n + 1)) {
+        margin-right: 0;
+    }
+    .g-osah__card:not(:nth-child(3n + 1)) {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .g-osahc__heading {
+        margin: 30px 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .g-osah__card {
+        width: calc(50% - 7.5px);
+    }
+    .g-osah__card:not(:nth-child(3n + 1)) {
+        margin-right: 0;
+    }
+    .g-osah__card:not(:nth-child(2n + 1)) {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .g-osah__card {
+        width: 100%;
+    }
+    .g-osah__card:not(:nth-child(2n + 1)) {
+        margin-right: 0;
+    }
+
+    .g-f__btn {
+        margin-bottom: 15px;
+    }
 }

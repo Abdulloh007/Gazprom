@@ -68,3 +68,48 @@
 .g-post.galary .g-pe__wrap > * {
     color: #fff;
 }
+
+
+@media (max-width: 1325px) {
+    .g-section__actions {
+        width: 50%;
+    }
+    .g-section__heading {
+        width: 50%;
+    }
+}
+@media (max-width: 1200px) {
+    .g-pe__title {
+        font-size: 20px;
+    }
+}
+@media (max-width: 992px) {
+    .g-section__actions .g-btn:nth-child(1n) {
+        margin: 0 0 10px 10px;
+    }
+    .g-post.galary:not(:nth-child(2n)) {
+        margin-right: 15px;
+    }
+    .g-post.galary {
+        width: calc(50% - 15px);
+    }
+}
+
+@media (max-width: 576px) {
+    .g-section__actions {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .g-section__heading {
+        width: 100%;
+    }
+    .g-section__actions .g-btn:nth-child(1n) {
+        margin: 0 10px 10px 0;
+    }
+    .g-post.galary:not(:nth-child(4n)) {
+        margin-right: 0;
+    }
+    .g-post.galary {
+        width: 100%;
+    }
+}

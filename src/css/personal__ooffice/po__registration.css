@@ -38,3 +38,25 @@
     font-size: 22px;
     color: var(--blue);
 }
+
+
+
+@media (max-width: 768px) {
+    .g-f__label.w-33.mr15 {
+        margin-right: 0;
+    }
+    .g-f__label:nth-child(2), .g-f__label:nth-child(4), .g-f__label:nth-child(6), .g-f__label:nth-child(9), .g-f__label:nth-child(11), .g-f__label:nth-child(13), .g-f__label:nth-child(15), .g-f__label:nth-child(20), .g-f__label:nth-child(22) {
+        margin-right: 15px !important;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .g-f__label:nth-child(1n) {
+        margin-right: 0 !important;
+    }
+    .g-f__btn {
+        margin-bottom: 15px;
+    }
+    
+}

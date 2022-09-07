@@ -44,9 +44,13 @@
 .g-post__content {
     width: 60%;
     align-content: center;
+    padding-bottom: 40px;
 }
 .g-post__man {
     max-width: 40%;
+    height: fit-content;
+    object-fit: contain;
+    margin-top: auto;
 }
 
 /* Last Tab Styles */
@@ -77,3 +81,36 @@
 .g-contact__data .g-mmcc__contact .g-mmccc__text-wrap {
     width: calc(100% - 75px);
 }
+
+
+/* ----- MEDIA STYLES ----- */
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+    .g-f__label.w-33 {
+        width: calc(50% - 7.5px);
+    }
+}
+
+@media (max-width: 768px) {
+    .g-post__content {
+        padding-right: 20px;
+    }
+    .g-btn.g-f__label.w-33 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .g-post__content {
+        padding-right: 0;
+        width: 100%;
+    }
+    .g-post__man {
+        display: none;
+    }
+}
+

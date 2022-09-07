@@ -117,6 +117,10 @@
 .g-t__col.x40p {
     width: 40%;
 }
+.g-t__col.x40p img {
+    max-width: 100%;
+    border-radius: 6px;
+}
 .g-t__col.x60p {
     width: 60%;
     padding-left: 65px;
@@ -292,4 +296,100 @@ section#comission .g-tn__item.active {
 .g-comi__wrap p {
     color: #8D9BA5;
     font-size: 12px;
+}
+
+.g-contact__data .g-mmcc__contact .g-mmccc__text-wrap {
+    width: calc(100% - 75px);
+}
+
+/* ----- MEDIA STYLES ----- */
+@media (max-width: 1325px) {
+    .g-tn__item:last-child::after {
+        width: 250px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .g-tn__item:last-child::after {
+        width: 90px;
+    }
+    .g-tab_navigation__sl {
+        width: 30%;
+    }
+    .g-tab__sl {
+        width: 70%;
+        padding-left: 30px;
+    }
+    .g-osah__card {
+        height: auto;
+    }
+    .g-osahcw__row img {
+        width: 80px;
+    }
+    .g-osahcwr__text-wrap {
+        width: calc(100% - 85px);
+        margin-right: 5px;
+    }
+    .g-t__col.x60p {
+        padding-left: 30px;
+    }
+    .g-contact__data .g-mmcc__contact .g-btn {
+        padding: 10px;
+    }
+    .g-contact__data .g-mmcc__link {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .g-tn__item:last-child::after {
+        content: none;
+    }
+    .g-t__col.x40p {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .g-t__col.x60p {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .g-tab_navigation__sl {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .g-tab__sl {
+        width: 100%;
+        top: 100%;
+        left: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .g-tn__item:not(.reset, :last-child) {
+        max-width: none;
+    }
+    .g-tab_navigation__sl {
+        height: 130px;
+    }
+    .g-osah__card {
+        width: 100%;
+    }
+    .g-osah__card:not(:nth-child(2n)) {
+        margin-right: 0;
+    }
+    .g-contact__data .g-mmcc__contact, .g-contact__data .g-mmcc__contact:first-child {
+        width: 100%;
+        margin-right: 0;
+    }
+    .g-f__btn {
+        margin-bottom: 15px;
+    }
 }

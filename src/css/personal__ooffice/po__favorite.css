@@ -60,6 +60,9 @@
 .g-pon__item.active svg path {
     stroke: #000;
 }
+.g-pon__item span {
+    width: calc(100% - 40px);
+}
 .g-po__content {
     width: 70%;
     padding-left: 40px;
@@ -73,4 +76,42 @@
 }
 .g-post:not(:nth-child(2n)) {
     margin-right: 40px;
+}
+
+
+
+/* ----- MEDIA STYLES ----- */
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    .g-po__nav {
+        width: 100%;
+    }
+    .g-po__content {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+    .g-post:not(:nth-child(2n)) {
+        margin-right: 15px;
+    }
+    .g-post {
+        width: calc(50% - 15px);
+    }
+}
+
+@media (max-width: 576px) {
+    .g-post:not(:nth-child(2n)) {
+        margin-right: 0;
+    }
+    .g-post {
+        width: 100%;
+    }
 }

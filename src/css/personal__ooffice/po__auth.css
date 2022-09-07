@@ -21,6 +21,7 @@
 
 /* Form Styles */
 .g-auth__block {
+    max-width: 100%;
     width: 520px;
     margin: -55px auto 0;
     padding: 75px 100px;
@@ -28,4 +29,11 @@
 }
 .g-auth__block .g-f__btn:last-child {
     margin-top: 15px;
+}
+
+
+@media (max-width: 576px) {
+    .g-auth__block {
+        padding: 50px 30px 25px;
+    }
 }

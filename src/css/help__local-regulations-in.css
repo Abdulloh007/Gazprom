@@ -50,3 +50,24 @@
 .g-pm__actions .g-btn:first-child {
     margin-right: 5px;
 }
+
+
+/* ----- MEDIA STYLES ----- */
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+    .g-post__materials {
+        width: 100%;
+    }
+}
