@@ -7,8 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../node_modules/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="../css/personal__ooffice/po__project-passport.css
-    ">
+    <link rel="stylesheet" href="../css/personal__ooffice/po__project-passport.css">
 </head>
 <body>
 
@@ -35,7 +34,7 @@
         <section class="g-section g-post__section">
             <div class="g-container">
                 <div class="g-row">
-                    <h2 class="g-section__heading">Спортивный комплекс «Факел»</h2>
+                    <h2 class="g-section__heading">Паспорт проекта</h2>
                     
                     <div class="g-tabination">
                         <div class="g-tab_navigation g-dfw">
@@ -359,7 +358,7 @@
                                 </div>
                                 <div class="g-bc__actions g-dfw">
                                     <button class="g-btn g-btn__transparent-blue">Добавить свое поле</button>
-                                    <button class="g-btn g-btn__transparent-gray">Выбрать шаблон</button>
+                                    <button id="select__template" class="g-btn g-pop_up__btn g-btn__transparent-gray">Выбрать шаблон</button>
                                 </div>
                             </div>
                             <div class="g-buget__total g-dfw">
@@ -476,7 +475,7 @@
                                     </div>
                                 </div>
                                 <div class="g-bc__actions g-dfw">
-                                    <button class="g-btn g-btn__transparent-blue">Добавить участника</button>
+                                    <button id="add__user" class="g-btn g-pop_up__btn g-btn__transparent-blue">Добавить участника</button>
                                 </div>
                             </div>
                             <div class="g-buget__total g-dfw">
@@ -641,6 +640,169 @@
 
 
     <footer id="footer"></footer>
+
+    <section class="g-pop_ups">
+        <div class="g-pop_up g-dfw g-alt-center" data-target="select__template">
+            <div class="g-pop_up__wrap">
+                <div class="g-pop_up__wrap__header">
+                    <svg class="fa-close" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25 7L7 25" stroke="#CECECE" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M25 25L7 7" stroke="#CECECE" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h4 class="g-fr__heiding">Выбрать шаблон</h4>
+                <div class="g-pop__timelist">
+                    <label class="g-f__label g-hi">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.15619 14.0625C11.4181 14.0625 14.0624 11.4182 14.0624 8.15625C14.0624 4.89432 11.4181 2.25 8.15619 2.25C4.89426 2.25 2.24994 4.89432 2.24994 8.15625C2.24994 11.4182 4.89426 14.0625 8.15619 14.0625Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12.3323 12.333L15.7495 15.7502" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                                     
+                        <div class="g-fl__wrap">
+                            <input type="text" placeholder="Поиск по шаблонам">
+                        </div>
+                    </label>
+                    <div class="g-ptl__item g-dfw">
+                        <div class="g-ptli__wrap">
+                            <h4>22 апреля в 18:00</h4>
+                            <p>Ямало-Ненецкий А.О., Новый Уренгой, улица Железнодорожная, д. 8</p>
+                        </div>
+                        <label class="g-ckbx__container">
+                            <input type="checkbox">
+                            <span class="g-ckbx__chmrk"></span>
+                        </label>
+                    </div>
+                    <div class="g-ptl__item g-dfw">
+                        <div class="g-ptli__wrap">
+                            <h4>22 апреля в 18:00</h4>
+                            <p>Ямало-Ненецкий А.О., Новый Уренгой, улица Железнодорожная, д. 8</p>
+                        </div>
+                        <label class="g-ckbx__container">
+                            <input type="checkbox">
+                            <span class="g-ckbx__chmrk"></span>
+                        </label>
+                    </div>
+                    <div class="g-ptl__item g-dfw">
+                        <div class="g-ptli__wrap">
+                            <h4>22 апреля в 18:00</h4>
+                            <p>Ямало-Ненецкий А.О., Новый Уренгой, улица Железнодорожная, д. 8</p>
+                        </div>
+                        <label class="g-ckbx__container">
+                            <input type="checkbox">
+                            <span class="g-ckbx__chmrk"></span>
+                        </label>
+                    </div>
+                    <div class="g-ptl__item g-dfw">
+                        <div class="g-ptli__wrap">
+                            <h4>22 апреля в 18:00</h4>
+                            <p>Ямало-Ненецкий А.О., Новый Уренгой, улица Железнодорожная, д. 8</p>
+                        </div>
+                        <label class="g-ckbx__container">
+                            <input type="checkbox">
+                            <span class="g-ckbx__chmrk"></span>
+                        </label>
+                    </div>
+                    <div class="g-ptl__item g-dfw">
+                        <div class="g-ptli__wrap">
+                            <h4>22 апреля в 18:00</h4>
+                            <p>Ямало-Ненецкий А.О., Новый Уренгой, улица Железнодорожная, д. 8</p>
+                        </div>
+                        <label class="g-ckbx__container">
+                            <input type="checkbox">
+                            <span class="g-ckbx__chmrk"></span>
+                        </label>
+                    </div>
+                    <div class="g-ptl__item g-dfw">
+                        <div class="g-ptli__wrap">
+                            <h4>22 апреля в 18:00</h4>
+                            <p>Ямало-Ненецкий А.О., Новый Уренгой, улица Железнодорожная, д. 8</p>
+                        </div>
+                        <label class="g-ckbx__container">
+                            <input type="checkbox">
+                            <span class="g-ckbx__chmrk"></span>
+                        </label>
+                    </div>
+                </div>
+                <button class="g-btn g-btn__blue g-add__template g-dfw g-jc-sb ">
+                    <span>Добавить</span>
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.4375 11H18.5625" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.375 4.8125L18.5625 11L12.375 17.1875" stroke="white" stroke-linecap="square" stroke-linejoin="round"/>
+                    </svg>                        
+                </button>
+            </div>
+        </div>
+        <div class="g-pop_up g-dfw g-alt-center" data-target="add__user">
+            <div class="g-pop_up__wrap">
+                <div class="g-pop_up__wrap__header">
+                    <svg class="fa-close" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25 7L7 25" stroke="#CECECE" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M25 25L7 7" stroke="#CECECE" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h4 class="g-fr__heiding">Добавить участника</h4>
+                <div class="g-pop__timelist">
+                    <label class="g-f__label g-hi">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.15619 14.0625C11.4181 14.0625 14.0624 11.4182 14.0624 8.15625C14.0624 4.89432 11.4181 2.25 8.15619 2.25C4.89426 2.25 2.24994 4.89432 2.24994 8.15625C2.24994 11.4182 4.89426 14.0625 8.15619 14.0625Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12.3323 12.333L15.7495 15.7502" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                                     
+                        <div class="g-fl__wrap">
+                            <input type="text" placeholder="Поиск по сотрудникам">
+                        </div>
+                    </label>
+                    <div class="g-selected__persons g-dfw">
+                        <div class="g-btn g-btn__blue g-dfw">
+                            <span>Александр Ш.</span>
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.4">
+                                <path d="M10.9375 3.0625L3.0625 10.9375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.9375 10.9375L3.0625 3.0625" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>                                
+                        </div>
+                        <div class="g-btn g-btn__blue g-dfw">
+                            <span>Бахтияр Б.</span>
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.4">
+                                <path d="M10.9375 3.0625L3.0625 10.9375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.9375 10.9375L3.0625 3.0625" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>                                
+                        </div>
+                        <div class="g-btn g-btn__blue g-dfw">
+                            <span>Булат К.</span>
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.4">
+                                <path d="M10.9375 3.0625L3.0625 10.9375" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.9375 10.9375L3.0625 3.0625" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>                                
+                        </div>
+                    </div>
+                    <div class="g-ptl__item user g-dfw">
+                        <div class="g-ptli__user_avatar">
+                            <img src="../../assets/img/trade-union/ca_avatar.png" alt="">
+                        </div>
+                        <div class="g-ptli__wrap">
+                            <h4>22 апреля в 18:00</h4>
+                            <p>Ямало-Ненецкий А.О., Новый Уренгой, улица Железнодорожная, д. 8</p>
+                        </div>
+                        <label class="g-ckbx__container">
+                            <input type="checkbox">
+                            <span class="g-ckbx__chmrk"></span>
+                        </label>
+                    </div>
+                </div>
+                <button class="g-btn g-btn__blue g-add__template g-dfw g-jc-sb ">
+                    <span>Добавить</span>
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.4375 11H18.5625" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.375 4.8125L18.5625 11L12.375 17.1875" stroke="white" stroke-linecap="square" stroke-linejoin="round"/>
+                    </svg>                        
+                </button>
+            </div>
+        </div>
+    </section>
 
     <script src="../../node_modules/swiper/swiper-bundle.min.js"></script>
     <script type="module" src="../../index.js"></script>

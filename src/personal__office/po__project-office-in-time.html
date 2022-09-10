@@ -7,8 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../node_modules/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="../css/personal__ooffice/po__project-office-in.css
-    ">
+    <link rel="stylesheet" href="../css/personal__ooffice/po__project-office-in.css">
 </head>
 <body>
 
@@ -140,13 +139,13 @@
                             <span>Загрузить больше</span>                                    
                         </p>
                         <div class="g-fill__passport-wrap g-dfw g-jc-sb">
-                            <a href="./po__project-passport__filing.html" class="g-btn g-dfw g-alt-center g-jc-sb g-btn__blue g-fill_passport">
+                            <button href="./po__project-passport__filing.html" id="select__time" class="g-btn g-dfw g-alt-center g-pop_up__btn g-jc-sb g-btn__blue g-fill_passport">
                                 <span>Выбрать время защиты проекта</span>
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5.5 16.5L16.5 5.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M7.5625 5.5H16.5V14.4375" stroke="white" stroke-linecap="square" stroke-linejoin="round"/>
                                 </svg>                                
-                            </a>
+                            </button>
                             <a href="./po__project-passport__filing.html" class="g-btn g-dfw g-alt-center g-jc-sb g-btn__transparent-blue g-fill_passport">
                                 <span>Скачать паспорт проекта</span>
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -163,6 +162,51 @@
     </main>
 
     <footer id="footer"></footer>
+
+    <section class="g-pop_ups">
+        <div class="g-pop_up g-dfw g-alt-center" data-target="select__time">
+            <div class="g-pop_up__wrap">
+                <div class="g-pop_up__wrap__header">
+                    <svg class="fa-close" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25 7L7 25" stroke="#CECECE" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M25 25L7 7" stroke="#CECECE" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h4 class="g-fr__heiding">Выбрать время защиты проекта</h4>
+                <!-- <p class="g-fr__text">Введите адрес электройнной почты, для восстановления вашего доступа.</p> -->
+                <div class="g-pop__timelist">
+                    <div class="g-ptl__item g-dfw">
+                        <div class="g-ptli__wrap">
+                            <h4>22 апреля в 18:00</h4>
+                            <p>Ямало-Ненецкий А.О., Новый Уренгой, улица Железнодорожная, д. 8</p>
+                        </div>
+                        <button class="g-btn g-btn__blue">Выбрать</button>
+                    </div>
+                    <div class="g-ptl__item g-dfw">
+                        <div class="g-ptli__wrap">
+                            <h4>22 апреля в 18:00</h4>
+                            <p>Ямало-Ненецкий А.О., Новый Уренгой, улица Железнодорожная, д. 8</p>
+                        </div>
+                        <button class="g-btn g-btn__blue">Выбрать</button>
+                    </div>
+                    <div class="g-ptl__item g-dfw">
+                        <div class="g-ptli__wrap">
+                            <h4>22 апреля в 18:00</h4>
+                            <p>Ямало-Ненецкий А.О., Новый Уренгой, улица Железнодорожная, д. 8</p>
+                        </div>
+                        <button class="g-btn g-btn__blue">Выбрать</button>
+                    </div>
+                    <div class="g-ptl__item g-dfw">
+                        <div class="g-ptli__wrap">
+                            <h4>22 апреля в 18:00</h4>
+                            <p>Ямало-Ненецкий А.О., Новый Уренгой, улица Железнодорожная, д. 8</p>
+                        </div>
+                        <button class="g-btn g-btn__blue">Выбрать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="../../node_modules/swiper/swiper-bundle.min.js"></script>
     <script type="module" src="../../index.js"></script>

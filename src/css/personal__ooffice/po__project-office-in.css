@@ -190,6 +190,56 @@
     margin-right: 60px;
 }
 
+
+/* Pop Up Styles */
+.g-fr__heiding {
+    margin: 0;
+    font-size: 30px;
+    color: #000;
+}
+.g-fr__text {
+    font-size: 15px;
+    color: #949494;
+    margin: 10px 0 20px;
+}
+.g-pop__timelist {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.g-ptl__item {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #E1ECEF;
+}
+
+.g-ptli__wrap {
+    width: calc(100% - 100px);
+}
+
+.g-ptl__item .g-btn {
+    padding: 10px 15px;
+}
+
+.g-ptl__item:first-child {
+    border-top: 1px solid #E1ECEF;
+}
+
+.g-ptli__wrap h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #000;
+}
+
+.g-ptli__wrap p {
+    margin: 0;
+    font-size: 10px;
+    color: #B8C0C6;
+}
+
+
 /* ----- MEDIA STYLES ----- */
 
 @media (max-width: 1200px) {

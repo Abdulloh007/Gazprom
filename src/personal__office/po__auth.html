@@ -54,6 +54,7 @@
                             <path d="M12 15C12.4142 15 12.75 14.6642 12.75 14.25C12.75 13.8358 12.4142 13.5 12 13.5C11.5858 13.5 11.25 13.8358 11.25 14.25C11.25 14.6642 11.5858 15 12 15Z" fill="black"/>
                         </svg>                                                     
                     </label>
+                    <p id="recover" class="g-recover g-pop_up__btn">Восстановить пароль</p>
                     <button class="g-btn g-btn__blue g-f__btn g-dfw g-alt-center g-jc-sb">
                         <span class="reset">Отправить запрос</span>
                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,6 +76,70 @@
     </main>
 
     <footer id="footer"></footer>
+
+    <section class="g-pop_ups">
+        <div class="g-pop_up g-dfw g-alt-center" data-target="recover">
+            <div class="g-pop_up__wrap">
+                <div class="g-pop_up__wrap__header">
+                    <svg class="fa-close" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25 7L7 25" stroke="#CECECE" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M25 25L7 7" stroke="#CECECE" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h4 class="g-fr__heiding">Восстановть мой пароль</h4>
+                <p class="g-fr__text">Введите адрес электройнной почты, для восстановления вашего доступа.</p>
+                <form class="g-form recovery g-dfw">
+                    <label class="g-f__label">
+                        <span>Электронная почта</span>
+                        <input type="email" placeholder="name@mail.com">                                                        
+                    </label>
+                    <button class="g-btn g-btn__blue g-f__btn g-dfw g-alt-center g-jc-sb">
+                        <span class="reset">Отправить пароль</span>
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.5 16.5L16.5 5.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.5625 5.5H16.5V14.4375" stroke="white" stroke-linecap="square" stroke-linejoin="round"/>
+                        </svg>                                
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="g-pop_up g-dfw g-alt-center" data-target="recovered-successful">
+            <div class="g-pop_up__wrap">
+                <div class="g-pop_up__wrap__header">
+                    <svg class="fa-close" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25 7L7 25" stroke="#CECECE" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M25 25L7 7" stroke="#CECECE" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="g-success-massege g-dfw">
+                    <h4 class="g-fr__heiding">Отлично! Мы отправили ваш новый пароль
+                        на электронную почту.</h4>
+                    <svg width="81" height="90" viewBox="0 0 81 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_14_38964)">
+                            <path d="M40.3846 66.9234C38.4923 66.9234 36.9231 65.3541 36.9231 63.4618V54.2311C36.9231 52.3388 38.4923 50.7695 40.3846 50.7695C42.2769 50.7695 43.8462 52.3388 43.8462 54.2311V63.4618C43.8462 65.3541 42.2769 66.9234 40.3846 66.9234Z" fill="#60B0E7"/>
+                            <path d="M58.3845 9.36923C55.7537 5.63077 52.0614 2.76923 47.723 1.24615C45.3691 0.415385 42.8768 0 40.3845 0C40.1076 0 39.8768 0 39.5999 0C38.6307 0 37.6153 0.138462 36.6461 0.276923C36.1845 0.369231 35.723 0.461538 35.2614 0.553846C34.9384 0.646154 34.6153 0.646154 34.2922 0.738461C33.7384 0.876923 33.2307 1.15385 32.6768 1.33846C32.2614 1.47692 31.8461 1.61538 31.4768 1.8C30.323 2.30769 29.1691 2.90769 28.1076 3.6C28.0153 3.69231 27.923 3.78462 27.7845 3.83077C26.8153 4.47692 25.9384 5.21538 25.1076 6.04615C24.7845 6.32308 24.5537 6.64615 24.2307 6.96923C23.8614 7.38462 23.4461 7.75385 23.123 8.16923C23.0307 8.30769 22.9845 8.44615 22.9384 8.58462C20.123 12.2769 18.4153 16.8 18.4153 21.8308V31.0615H25.3384V21.8308C25.3384 17.9077 26.8614 14.3538 29.3537 11.6769C29.5384 11.4462 29.723 11.2615 29.9537 11.0308C30.5076 10.4769 31.1537 9.96923 31.7999 9.50769C31.8922 9.46154 31.9384 9.36923 32.0307 9.32308C32.7691 8.86154 33.5076 8.44615 34.3384 8.07692C34.6153 7.93846 34.8922 7.89231 35.1691 7.75385C35.723 7.52308 36.323 7.33846 36.923 7.2C37.2461 7.10769 37.5691 7.06154 37.8461 7.01538C38.4922 6.92308 39.1845 6.83077 39.8768 6.83077C41.7691 6.78462 43.6153 7.01538 45.4153 7.66154C48.3691 8.72308 50.9076 10.6615 52.7076 13.2C53.8153 14.7692 55.9384 15.1385 57.5076 14.0769C59.0768 13.0154 59.4461 10.8462 58.3845 9.27692V9.36923Z" fill="#60B0E7"/>
+                            <path d="M58.8462 90.0001H21.9231C9.83077 90.0001 0 80.1693 0 68.077V49.6155C0 37.5232 9.83077 27.6924 21.9231 27.6924H58.8462C70.9385 27.6924 80.7692 37.5232 80.7692 49.6155V68.077C80.7692 80.1693 70.9385 90.0001 58.8462 90.0001ZM21.9231 34.6155C13.6615 34.6155 6.92308 41.3539 6.92308 49.6155V68.077C6.92308 76.3385 13.6615 83.077 21.9231 83.077H58.8462C67.1077 83.077 73.8462 76.3385 73.8462 68.077V49.6155C73.8462 41.3539 67.1077 34.6155 58.8462 34.6155H21.9231Z" fill="#0074C1"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_14_38964">
+                                <rect width="80.7692" height="90" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>                        
+                </div>
+                <p class="g-fr__text">Проверьте указанный адрес электронной почты и выполните вход.</p>
+                <div class="g-form recovery g-dfw">
+                    <a href="./po__auth.html" class="g-btn g-btn__blue g-f__btn g-dfw g-alt-center g-jc-sb">
+                        <span class="reset">Отправить пароль</span>
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.5 16.5L16.5 5.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.5625 5.5H16.5V14.4375" stroke="white" stroke-linecap="square" stroke-linejoin="round"/>
+                        </svg>                                
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="../../node_modules/swiper/swiper-bundle.min.js"></script>
     <script type="module" src="../../index.js"></script>

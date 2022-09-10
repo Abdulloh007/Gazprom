@@ -401,14 +401,14 @@ input {
 }
 .g-pop_up__wrap {
     position: relative;
-    width: 540px;
+    width: 760px;
     max-width: 100%;
     margin: auto auto;
-    background: var(--plashka);
+    background: #fff;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 75px 50px;
-    border-radius: 15px;
+    padding: 60px 70px;
+    border-radius: 6px;
 }
 .g-pop_up__wrap__header {
     margin-bottom: 60px;
@@ -419,12 +419,15 @@ input {
     color: var(--blue);
     margin: 0;
 }
-.g-pop_up__wrap__header i {
+.g-pop_up__wrap__header .fa-close {
     position: absolute;
-    top: 40px;
-    right: 40px;
+    top: 20px;
+    right: 20px;
     color: #E3E3E3;
     font-size: 24px;
+    cursor: pointer;
+}
+.g-pop_up__btn {
     cursor: pointer;
 }
 /* Tabination Styles */
@@ -659,7 +662,59 @@ border-radius: 34px;
 border-radius: 50%;
 }
 
-
+/* CheckBox Styles */
+.g-ckbx__container {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .g-ckbx__container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .g-ckbx__chmrk {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #eee;
+  }
+  .g-ckbx__container:hover input ~ .g-ckbx__chmrk {
+    background-color: #ccc;
+  }
+  .g-ckbx__container input:checked ~ .g-ckbx__chmrk {
+    background-color: #2196F3;
+  }
+  .g-ckbx__chmrk:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .g-ckbx__container input:checked ~ .g-ckbx__chmrk:after {
+    display: block;
+  }
+  .g-ckbx__container .g-ckbx__chmrk:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
 
 
 /* Navigation Styles */

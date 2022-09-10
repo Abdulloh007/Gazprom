@@ -30,7 +30,40 @@
 .g-auth__block .g-f__btn:last-child {
     margin-top: 15px;
 }
+.g-recover {
+    font-size: 12px;
+    width: 100%;
+    color: #A8B4BD;
+    margin: 0 0 20px;
+}
 
+
+
+/* Pop Up Styles */
+.g-form.recovery > * {
+    width: calc(50% - 7.5px);
+    margin: 0;
+}
+.g-form.recovery > *:first-child {
+    margin-right: 15px;
+}
+.g-fr__heiding {
+    margin: 0;
+    font-size: 30px;
+    color: #000;
+}
+.g-fr__text {
+    font-size: 15px;
+    color: #949494;
+    margin: 10px 0 20px;
+}
+.g-success-massege {
+    width: 100%;
+    justify-content: space-between;
+}
+.g-success-massege .g-fr__heiding {
+    width: calc(100% - 150px);
+}
 
 @media (max-width: 576px) {
     .g-auth__block {
