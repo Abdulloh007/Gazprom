@@ -460,4 +460,18 @@ section#comission .g-tn__item.active {
     .g-f__btn {
         margin-bottom: 15px;
     }
+
+
+
+    .g-popup__banner {
+        margin: -80px -30px 0 -30px;
+    }
+    .g-popb__media {
+        width: 100%;
+    }
+    .g-popb__wrap {
+        width: 100%;
+        padding-right: 35px;
+        padding-bottom: 20px;
+    }
 }

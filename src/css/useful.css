@@ -212,10 +212,13 @@ section#comission .g-tn__item.active {
 }
 .g-popb__media img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .g-popb__wrap {
     width: 50%;
     padding-left: 35px;
+    padding-top: 35px;
     align-content: center;
 }
 .g-sport__type {
@@ -250,6 +253,7 @@ section#comission .g-tn__item.active {
     color: #8D9BA5;
     border-color: #E1ECEF;
     background-color: transparent;
+    margin-bottom: 10px;
 }
 .g-tab_navigation .g-btn.active {
     background-color: #000;
@@ -257,7 +261,7 @@ section#comission .g-tn__item.active {
     color: #fff;
 }
 .g-time-table .g-tab {
-    margin: 20px 0 0;
+    margin: 10px 0 0;
 }
 
 .g-tt__card {
@@ -283,6 +287,7 @@ section#comission .g-tn__item.active {
 .g-tt__card .g-bage.white {
     font-size: 10px;
     color: #000;
+    text-align: center;
 }
 
 .g-tt__card {
@@ -364,7 +369,7 @@ section#comission .g-tn__item.active {
 }
 
 @media (max-width: 992px) {
-    .g-tn__item:last-child::after {
+    .g-tn__item:not(.reset):last-child::after {
         content: none;
     }
     .g-t__col.x40p {
@@ -420,4 +425,32 @@ section#comission .g-tn__item.active {
     .g-contact__data .g-mmcc__contact:not(:last-child) {
         width: 100%;
     }
+    /* PopUp Styles */
+    .g-popup__banner {
+        margin: -80px -30px 0 -30px;
+    }
+    .g-popb__media {
+        width: 100%;
+    }
+    .g-popb__wrap {
+        width: 100%;
+        padding-right: 35px;
+    }
+
+    .g-popp__wrap {
+        width: calc(100% - 100px);
+    }
+    .g-popp__avatar {
+        width: 85px;
+        height: 85px;
+    }
+
+    /* .g-tt__card {
+        width: calc(50% - 2.5px);
+    }
+    .g-tt__card:not(:nth-child(2n - 1)) {
+        margin-right: 0;
+    } */
+
+
 }

@@ -355,6 +355,12 @@
 }
 
 @media (max-width: 576px) {
+    .g-banner__section::before {
+        width: 100%;
+    }
+    .g-active__projects::before, .g-media__section::before {
+        content: none;
+    }
     .g-banner__heading .g-btn, .g-about .g-btn {
         width: 200px;
     }

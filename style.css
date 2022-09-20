@@ -1270,6 +1270,7 @@ footer .g-container .g-row:first-child {
     .g-section__actions {
         margin-left: auto;
         margin-bottom: 20px;
+        width: 100%;
     }
     .g-section__tag {
         padding-left: 44px;
@@ -1310,4 +1311,14 @@ footer .g-container .g-row:first-child {
     .g-mmcc__apps {
         justify-content: flex-start;
     }
+
+
+    /* PopUp Styles */
+    .g-pop_up__wrap {
+        padding: 20px 30px;
+    }
+    .g-pop_up__wrap__header .fa-close {
+        top: 0;
+    }
+    
 }

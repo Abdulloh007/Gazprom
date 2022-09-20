@@ -53,6 +53,7 @@
 .g-pm__text-wrap h4 {
     font-size: 14px;
     margin: 0 0 15px;
+    color: black;
 }
 .g-pm__text-wrap .g-bage {
     width: fit-content;
@@ -80,7 +81,11 @@
 }
 
 @media (max-width: 768px) {
-
+    .g-section__actions {
+        width: 100%;
+        margin-bottom: 40px;
+        justify-content: flex-start;
+    }
 }
 
 @media (max-width: 576px) {

@@ -483,4 +483,11 @@ section#comission .g-tn__item.active {
     .g-osah__card {
         width: 100%;
     }
+
+    .g-section.g-goals, .g-menegers__section, .g-history__section, .g-commission__section, .g-structure__section, .g-osah-section {
+        padding: 60px 0;
+    }
+    .g-fast__links {
+        display: none;
+    }
 }

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Abdulloh007/Gazprom#readme",
   "dependencies": {
+    "fslightbox": "^3.3.1",
     "swiper": "^8.3.1"
   }
 }
