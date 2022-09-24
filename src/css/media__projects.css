@@ -16,6 +16,11 @@
 }
 .g-section__heading {
     padding: 0;
+    width: 50%;
+}
+.g-section__actions {
+    width: 50%; 
+    padding-top: 15px;
 }
 .g-active__projects {
     padding-bottom: 80px;

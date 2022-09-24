@@ -16,6 +16,11 @@
 }
 .g-section__heading {
     padding: 0;
+    width: 50%;
+}
+.g-section__actions {
+    width: 50%;
+    padding-top: 15px;
 }
 .g-active__projects {
     padding-bottom: 80px;
@@ -29,6 +34,9 @@
 }
 .g-section__actions .g-btn.g-btn__blue {
     color: #fff;
+}
+.g-section__actions .g-btn.g-btn__blue:hover {
+    color: var(--blue);
 }
 .g-post__section {
     margin-bottom: 40px;

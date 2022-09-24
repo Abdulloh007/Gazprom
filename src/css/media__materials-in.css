@@ -80,6 +80,7 @@
     margin-bottom: 15px;
     border-radius: 6px;
     overflow: hidden;
+    display: block;
 }
 .g-post__row img {
     width: 100%;
