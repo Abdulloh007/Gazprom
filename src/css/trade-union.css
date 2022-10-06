@@ -464,6 +464,9 @@ section#comission .g-tn__item.active {
     .g-section__text {
         padding-left: 44px;
     }
+    .g-counter:first-child .g-c__title {
+        padding-left: 44px;
+    }
     .g-history__slider {
         width: 100%;
         margin-left: 0;

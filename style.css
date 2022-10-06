@@ -986,7 +986,8 @@ footer .g-container .g-row:first-child {
     padding: 0;
 }
 .g-social__list {
-    width: 540px;
+    width: 510px;
+    margin-left: auto;
 }
 .g-sl__item {
     width: 96px;
@@ -1312,7 +1313,8 @@ footer .g-container .g-row:first-child {
         justify-content: flex-start;
     }
     .g-sl__item {
-        margin-bottom: 10px;
+        padding: 15px 10px;
+        width: 85px;
     }
 
     /* PopUp Styles */
