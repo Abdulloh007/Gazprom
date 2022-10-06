@@ -355,6 +355,9 @@
 }
 
 @media (max-width: 576px) {
+    .g-banner__section {
+        background-position: 30% center;
+    }
     .g-banner__section::before {
         width: 100%;
     }
@@ -367,5 +370,9 @@
     .g-hot_link {
         width: 100%;
         margin-bottom: 15px;
+    }
+
+    .g-active__projects, .g-media__section {
+        padding: 55px 0;
     }
 }

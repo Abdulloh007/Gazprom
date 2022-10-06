@@ -1311,7 +1311,9 @@ footer .g-container .g-row:first-child {
     .g-mmcc__apps {
         justify-content: flex-start;
     }
-
+    .g-sl__item {
+        margin-bottom: 10px;
+    }
 
     /* PopUp Styles */
     .g-pop_up__wrap {
